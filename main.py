@@ -10,10 +10,12 @@ pygame.draw.circle(screen, [0, 255, 0], [150, 90], 10, 0)
 pygame.draw.rect(screen, [128, 128, 128], [135, 15, 30, 90], 2)
 pygame.draw.line(screen, [192,192,192], [115,250], [145,220], 2)
 pygame.draw.line(screen, [192,192,192], [155,220], [185,250], 2)
-pygame.draw.line(screen, [192,192,192], [115,250], [185,250], 2)
 pygame.draw.line(screen, [192,192,192], [155,220], [155,105], 2)
 pygame.draw.line(screen, [192,192,192], [145,220], [145,105], 2)
+pygame.draw.polygon(screen, "blue", [[114, 251], [145, 251], [145, 219]], 0)
+pygame.draw.polygon(screen, "white", [[186, 251], [155, 251], [155, 219]], 0)
 pygame.display.flip()
+
 
 running = True
 while running:
